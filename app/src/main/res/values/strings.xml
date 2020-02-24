@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ChallengeAVP</string>
+    <string name="title_home">Home</string>
+    <string name="title_shopping">Shopping</string>
+    <string name="splash">Splash</string>
+    <string name="home">Home</string>
+    <string name="congratulation_completed">Congratulations, your order has been successfully completed. Thank you for shopping at Cabify.</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="product_description">Official Cabify Store product. Delivery will be made only to Cabify offices. For product return, please contact the Administrator.</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_to_shopping_list">Add to shopping list</string>
+    <string name="submit">Order processing</string>
+    <string name="real_price">Total price: </string>
+    <string name="discount_price">Discount: </string>
+    <string name="total_price">Price without discount: </string>
+    <string name="delivery">The delivery will arrive successfully at its destination: Cabify Office (Madrid)</string>
+    <string name="summary">Summary</string>
+    <string name="discount_voucher">Discount: 2-for-1 promotions</string>
+    <string name="select_required_option">Select option</string>
+    <string name="completed">Completed</string>
+</resources>

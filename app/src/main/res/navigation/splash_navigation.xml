@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_navigation"
+    tools:ignore="UnusedNavigation">
+
+    <activity
+        android:id="@+id/dest_splash"
+        android:name="com.cabifychallenge.angelesvazquez.ui.splash.SplashActivity"
+        android:label="@string/splash">
+
+        <!--<action android:id="action_splash_to_home_activity"
+            android:destination="dest_home"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />-->
+    </activity>
+
+    <activity
+        android:id="@+id/dest_home"
+        android:name="com.cabifychallenge.angelesvazquez.ui.MainActivity"
+        android:label="@string/home"
+        android:layout="@layout/activity_main" />
+
+</navigation>

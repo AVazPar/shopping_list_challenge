@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center</item>
+        <!--<item name="android:icon">@drawable/ic_cabify_logo_white_rgb</item>-->
+        <!--<item name="android:foreground">@drawable/ic_cabify_logo_white_rgb</item>-->
+    </style>
+
+    <style name="appButton">
+        <item name="android:background">@drawable/ic_app_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="spinnerQuantity">
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textColorHint">@color/colorGrayDark</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:drawableEnd">@drawable/ic_arrow</item>
+    </style>
+
+</resources>
